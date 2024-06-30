@@ -1,0 +1,72 @@
+h1,
+h2 {
+    text-align: center;
+    color: red;
+}
+
+/* div p{
+    color: green;
+} */
+.para1 {
+    background-color: yellow;
+}
+
+#unordered {
+    color: darkmagenta;
+}
+
+ul>li {
+    list-style-type: square;
+    font-size: 18px;
+}
+
+ol>li {
+    color: aqua;
+    font-size: 18px;
+}
+
+h1+p {
+    font-size: 20px;
+}
+
+h1~p {
+    color: green;
+}
+
+/* Pseudo-classes */
+a:hover {
+    color: orange;
+}
+
+a:visited {
+    color: gray;
+}
+
+p:first-child {
+    font-size: 20px;
+}
+
+p:last-child {
+    color: brown;
+}
+
+p:nth-child(4) {
+    font-size: 22px;
+}
+
+/* pseudo-elements */
+p::first-line{
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    font-size: 25px;
+    color: red;
+}
+
+div:has(p){
+    border: 3px solid black;
+    margin: 5px;
+    padding: 5px
+    ;
+}
