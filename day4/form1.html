@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, in itial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .para::after {
+            content: "123";
+            border: 1px solid red;
+        }
+
+        .para1::before {
+            content: "123😊";
+            border: 1px solid red;
+        }
+
+        .para {
+            border: 2px solid red;
+            background-color: blue;
+        }
+
+        .para1 {
+            border: 2px solid red;
+            background-color: yellow;
+        }
+
+        .img {
+            background-image: url(
+                https://tse3.mm.bing.net/th?id=OIP.f_JInGF92XFn65XCE5M05wHaEo&pid=Api&P=0&h=180
+            );
+            height: 350px;
+            background-repeat: no-repeat;
+            color: aqua;
+            width: 500px;
+            background-size: cover;
+            margin: 10px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="username">UserName:</label></td>
+                    <td><input id="username" type="text" placeholder="enter your user name"></td>
+                </tr>
+
+
+                <tr>
+                    <td> <label for="Password">Password:</label></td>
+                    <td> <input id="Password" type="password" placeholder="enter your password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="Email">Email:</label></td>
+                    <td> <input id="Email" type="email" placeholder="enter your email"></td>
+                </tr>
+                <tr>
+                    <td> <label for="contact">contact Number:</label></td>
+                    <td> <input id="contact" type="text" placeholder="enter your contact"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><button>submit</button></td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </form>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iure eaque? Non amet magni eius?</p>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, iure eaque? Non amet magni eius?</p>
+    
+    <div class="img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A earum, nam repudiandae quo quod illo error neque suscipit quos culpa nihil explicabo eaque iste vel.</p>
+    </div>
+</body>
+
+</html>
