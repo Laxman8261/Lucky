@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* width: 500px; */
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .fullWidth {
+            /* width: 100%; */
+            width: 500px;
+            border: 1px solid black;
+            color: red;
+            background-color: yellow;
+            /* margin-left: 200px; */
+
+        }
+
+        .fullWidth2 {
+            /* min-width: 300px; */
+            border: 1px solid black;
+        }
+
+        .fullWidth3 {
+            /* min-width: 300px;
+            max-width: 600px; */
+            border: 1px solid green;
+
+        }
+
+        @media screen and (max-width:768px) {
+            .fullWidth2 {
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="fullWidth">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ratione deserunt maxime voluptas autem
+                repudiandae reprehenderit enim ipsam ullam porro iure mollitia incidunt quae, delectus maiores excepturi
+                repellendus, accusantium non?</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="fullWidth2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ratione deserunt maxime voluptas autem
+                repudiandae reprehenderit enim ipsam ullam porro iure mollitia incidunt quae, delectus maiores excepturi
+                repellendus, accusantium non?</p>
+        </div>
+        <div class="fullWidth3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ratione deserunt maxime voluptas autem
+                repudiandae reprehenderit enim ipsam ullam porro iure mollitia incidunt quae, delectus maiores excepturi
+                repellendus, accusantium non?</p>
+        </div>
+    </div>
+</body>
+
+</html>
