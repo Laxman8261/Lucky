@@ -19,19 +19,13 @@
     margin: 10px;
 }
 
-.content {
-    /* border: 1px solid red; */
-}
-
-.adsContainer {
-    /* border: 1px solid red; */
-}
 .image {
     display: flex;
     gap: 10px;
     border-radius: 20px;
-    
+
 }
+
 .image img {
     border-radius: 10px;
 }
@@ -49,10 +43,11 @@
         flex-direction: column-reverse;
     }
 }
+
 @media all and (max-width: 768px) {
     .image {
         flex-direction: column;
 
     }
-    
+
 }
